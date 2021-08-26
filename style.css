@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to bottom, #8cf5c4 0%, #073642 100%);
+}
+
+.wrapper{
+    
+    margin: 100px auto;
+    max-width: 400px;
+    width: 100%;
+    background: #fff;
+    border-radius: 5px;
+    padding:25px;
+}
+
+.wrapper input::placeholder{
+    font-size: small;
+}
+
+.done{
+    text-decoration: line-through;
+}
+
+
+.list button{
+    margin-left: 10rem;
+    margin-top: 10px;
+}
